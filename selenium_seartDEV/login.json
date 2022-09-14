@@ -1,14 +1,14 @@
 {
     "loginDatas": [
         {
-            "loginEmail": "wiktor.cwiertnia.seart@gmail.com",
-            "loginPass": "Test123*",
-            "nickName": "wiktor TEST!"
+            "loginEmail": "email@gmail.com",
+            "loginPass": "password",
+            "nickName": "nickname"
         },
         {
-            "loginEmail": "wiktor.cwiertnia@seart.pl",
-            "loginPass": "Test123*",
-            "nickName": "wiktor TEST!"
+            "loginEmail": "email@gmail.com",
+            "loginPass": "password",
+            "nickName": "nickname"
         }
     ]
 }
