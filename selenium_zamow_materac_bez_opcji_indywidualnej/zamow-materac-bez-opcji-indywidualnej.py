@@ -9,7 +9,7 @@ from selenium.webdriver.common.by import By
 serviceObj = Service("E:/Wiktor/inne/py/selenium/chromedriver/chromedriver.exe")
 driver = webdriver.Chrome(service=serviceObj)
 
-websiteToTest = 'https://dev321.seart.pl'
+websiteToTest = 'https://www.seart.pl/'
 driver.get(websiteToTest)
 driver.maximize_window()
 search= driver.find_element(By.CSS_SELECTOR, "body > div:nth-child(2) > div:nth-child(2) > div:nth-child(4) > div:nth-child(2) > div:nth-child(1) > div:nth-child(1) > div:nth-child(4) > form:nth-child(1) > div:nth-child(1) > input:nth-child(3)")

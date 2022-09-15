@@ -6,8 +6,8 @@ path = OpenFileWithData("login.json")
 
 loginInJSON = path.open()
 
-websiteToTest = 'https://dev321.seart.pl/'
-accountUrl = 'https://dev321.seart.pl/customer/account/'
+websiteToTest = 'https://www.seart.pl/'
+accountUrl = 'https://www.seart.pl/customer/account/'
 
 lenghtOfLoginDatas = len(loginInJSON['loginDatas'])
 
@@ -22,7 +22,7 @@ def datasFromJson():
         if counter == 1:
 
             #skladanie zamówienia
-            MakeOrder('https://dev321.seart.pl/biurko-sosnowe-woskowane-rustyk.html').makeOrder()
+            MakeOrder('https://www.seart.pl/biurko-sosnowe-woskowane-rustyk.html').makeOrder()
             print("counter", counter)
         else:
             pass

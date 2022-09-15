@@ -1,6 +1,6 @@
 import json
 
-
+#otwarcie pliku z danymi do logowania
 class OpenFileWithData:
     def __init__(self, filePath):
         self.filePath = filePath

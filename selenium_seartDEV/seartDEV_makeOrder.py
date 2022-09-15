@@ -15,11 +15,12 @@ class MakeOrder:
         self.serviceObj = Service("E:/Wiktor/inne/py/selenium/chromedriver/chromedriver.exe")
         self.driver = webdriver.Chrome(service=self.serviceObj)
 
+#złóż zamówienie na podany produkt
     def makeOrder(self):
         self.driver.get(self.websiteToTest)
         self.driver.maximize_window()
         self.driver.find_element(By.CLASS_NAME, "btn-cart").click()
-        self.driver.get("https://dev321.seart.pl/checkout/cart/")
+        self.driver.get("https://www.seart.pl/checkout/cart/")
         self.driver.find_element(By.XPATH, "/html[1]/body[1]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/fieldset[1]/table[1]/tbody[1]/tr[1]/td[5]/input[1]").clear()
         self.driver.find_element(By.XPATH, "/html[1]/body[1]/div[1]/div[1]/div[9]/div[1]/div[1]/div[1]/div[2]/div[1]/form[1]/fieldset[1]/table[1]/tbody[1]/tr[1]/td[5]/input[1]").send_keys("2")
         self.driver.find_element(By.XPATH, "//button[@title='Aktualizuj koszyk']").click()
