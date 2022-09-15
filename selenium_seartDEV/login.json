@@ -1,0 +1,14 @@
+{
+    "loginDatas": [
+        {
+            "loginEmail": "email@gmail.com",
+            "loginPass": "password",
+            "nickName": "nickname"
+        },
+        {
+            "loginEmail": "email@gmail.com",
+            "loginPass": "password",
+            "nickName": "nickname"
+        }
+    ]
+}
