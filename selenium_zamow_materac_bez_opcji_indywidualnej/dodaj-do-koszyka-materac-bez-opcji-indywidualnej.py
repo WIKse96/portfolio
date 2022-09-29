@@ -22,9 +22,9 @@ for productCard in productCards:
     if driver.find_element(By.CSS_SELECTOR,"body > div:nth-child(3) > div:nth-child(2) > div:nth-child(10) > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) > div:nth-child(5) > ul:nth-child(4) > li>div>div.description-wrapper>div.actions>button").get_attribute("title") == "Do koszyka":
         productCard.click()
         break
-driver.find_element(By.CSS_SELECTOR,"button[title='Do koszyka'] span span").click()
+driver.find_element(By.CSS_SELECTOR,"button[title='Do koszyka']").click()
 time.sleep(3)
-assert driver.find_element(By.XPATH,"//span[@class='items']").text
+assert driver.find_element(By.CSS_SELECTOR,".items").text == '1 produktów(y)'
 
 driver.close()
 
