@@ -1,0 +1,21 @@
+1666099504581	geckodriver	INFO	Listening on 127.0.0.1:52519
+1666099507595	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52520" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\W10Pro\\AppData\\Local\\Temp\\rust_mozprofilegOsQLW"
+1666099508905	Marionette	INFO	Marionette enabled
+1666099508914	Marionette	INFO	Listening on port 52529
+Read port: 52529
+WebDriver BiDi listening on ws://127.0.0.1:52520
+1666099509097	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\W10Pro\\AppData\\Local\\Temp\\rust_mozprofilegOsQLW\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52520/devtools/browser/e6fb1d53-6392-4391-a49e-91e37da3e175
+1666099514136	Marionette	INFO	Stopped listening on port 52529
+[Parent 1180, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1666100058629	geckodriver	INFO	Listening on 127.0.0.1:52643
+1666100061662	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52644" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\W10Pro\\AppData\\Local\\Temp\\rust_mozprofilerOSCVD"
+1666100062178	Marionette	INFO	Marionette enabled
+1666100062185	Marionette	INFO	Listening on port 52653
+Read port: 52653
+WebDriver BiDi listening on ws://127.0.0.1:52644
+1666100062327	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\W10Pro\\AppData\\Local\\Temp\\rust_mozprofilerOSCVD\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:52644/devtools/browser/c5cacbaa-12d0-45ec-aa6c-85f0116ea404
+1666100067661	Marionette	INFO	Stopped listening on port 52653
